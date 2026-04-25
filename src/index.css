@@ -190,7 +190,7 @@ body {
   display: flex;
   align-items: baseline;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .row-1 {
@@ -199,15 +199,15 @@ body {
 
 .row-amp {
   position: absolute;
-  top: 0.42em;
-  left: 0.3em;
-  z-index: 10;
+  top: 0.88em;
+  left: 0.68em;
+  z-index: 7;
   pointer-events: none;
 }
 
 .row-2 {
   justify-content: flex-start;
-  padding-left: 1.5em;
+  padding-left: 1.86em;
 }
 
 .gradient-text {
@@ -221,12 +221,13 @@ body {
 .hero-title .amp {
   font-family: 'Great Vibes', cursive;
   font-weight: 400;
-  font-size: 1.45em;
+  font-size: 1.42em;
   font-style: normal;
   display: inline-block;
   color: rgb(170, 169, 173);
-  transform: rotate(-16deg);
-  line-height: 0.9;
+  opacity: 0.5;
+  transform: rotate(-13deg) translateY(0.08em);
+  line-height: 0.64;
 }
 
 /* Footer Content */
