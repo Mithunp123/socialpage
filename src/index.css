@@ -199,15 +199,15 @@ body {
 
 .row-amp {
   position: absolute;
-  top: 0.38em;
-  left: 0.88em;
+  top: 0.42em;
+  left: 0.3em;
   z-index: 10;
   pointer-events: none;
 }
 
 .row-2 {
   justify-content: flex-start;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 
 .gradient-text {
@@ -219,14 +219,14 @@ body {
 }
 
 .hero-title .amp {
-  font-family: 'Mea Culpa', cursive;
+  font-family: 'Great Vibes', cursive;
   font-weight: 400;
-  font-size: 1.62em;
+  font-size: 1.45em;
   font-style: normal;
   display: inline-block;
   color: rgb(170, 169, 173);
-  transform: rotate(-12deg);
-  line-height: 1;
+  transform: rotate(-16deg);
+  line-height: 0.9;
 }
 
 /* Footer Content */
